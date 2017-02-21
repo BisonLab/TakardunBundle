@@ -1,0 +1,23 @@
+{
+    "name": "bisonlab/takardun-bundle",
+    "type": "symfony-bundle",
+    "description": "Document handling",
+    "keywords": ["document handling symfony"],
+    "homepage": "https://github.com/thomasez/BisonLab/TakardunBundle",
+    "license": "AGPLv3",
+    "authors": [
+        {
+            "name": "Thomas Lundquist",
+            "email": "github@bisonlab.no"
+        }
+    ],
+    "require": {
+        "bisonlab/common-bundle": "dev-master",
+        "symfony/framework-bundle": ">=3.2",
+        "stof/doctrine-extensions-bundle": "1.2.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "BisonLab\\TakardunBundle": "" }
+    },
+    "target-dir": "BisonLab/TakardunBundle"
+}
